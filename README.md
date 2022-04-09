@@ -30,8 +30,8 @@ Refer to https://nodejs.org/en/ to install nodejs
 Clone the project into local
 
 ```bash
-git clone https://github.com/akrabulislam/Random-Generator.git
-cd Random-Generator
+git clone https://github.com/akrabulislam/Random-Generator-App.git
+cd Random-Generator-App
 ```
 
 ## Install dependencies for server 
