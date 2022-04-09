@@ -1,0 +1,13 @@
+.text-wrapper {
+  margin: 20px 0px;
+  display: flex;
+  align-items: center;
+}
+
+.text-wrapper .text-type {
+  color: black;
+}
+
+.text-wrapper .text-result {
+  color:red;
+}

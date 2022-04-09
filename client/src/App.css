@@ -1,0 +1,18 @@
+.App {
+  position: relative;
+  display: flex; 
+  align-items: center; 
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  /* background-color: #EB6383; */
+  background-color: rgb(28, 33, 33);
+}
+
+.App-container{
+  width: 330px;
+  height: fit-content;
+  background-color: white;
+  box-sizing: border-box;
+  padding: 20px;
+}
