@@ -1,8 +1,6 @@
 # Random Generator App
 ## NodeJS | React | Typescript
 
-**Live Demo:** [https://hd283.net/](https://hd283.net/)
-
 This project built a String generator app in TypeScript.
 
 ## Why to use Typescript?
