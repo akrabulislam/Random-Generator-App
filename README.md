@@ -3,6 +3,9 @@
 
 This project built a String generator app in TypeScript.
 
+## Screenshot
+![Generator App](https://i.ibb.co/X21tcr1/Generator-App.png)
+
 ## Why to use Typescript?
 
 - **Unified modeling** across web client and server for objects
