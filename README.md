@@ -57,14 +57,14 @@ cd Random-Generator-App
 - Clicking on `Link`, will download the file.
 - Clicking on `Report` button , will show the count of each type of string.
   - Alphabetic 
-    - Contains [a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z]
-    - Example  [abdie,diauekdh,aaaidue,aki,ei...]
+    - Contains `a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z`
+    - Example  `abdie,diauekdh,aaaidue,aki,ei...`
   - Integers
-    - Contains [0,1,2,3,4,5,6,7,8,9]
-    - Example  [31837,938,8,928,1,2...]
+    - Contains `0,1,2,3,4,5,6,7,8,9`
+    - Example  `31837,938,8,928,1,2...`
   - Real Numbers
-    - Contains [0,1,2,3,4,5,6,7,8,9]
-    - Example  [1.2,938,8.9,9289.4758,12...]
+    - Contains `0,1,2,3,4,5,6,7,8,9`
+    - Example  `1.2,938,8.9,9289.4758,12...`
   - Alphanumerics
-    - Contains [a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z,0,1,2,3,4,5,6,7,8,9]
-    - Example  [kaidu12,ok48,akdiuehn98,898dairi....]
+    - Contains `a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z,0,1,2,3,4,5,6,7,8,9`
+    - Example  `kaidu12,ok48,akdiuehn98,898dairi....`
