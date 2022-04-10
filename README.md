@@ -65,7 +65,7 @@ cd Random-Generator-App
 ---
 **NOTE**
 
- ![FileSize]https://i.ibb.co/NWzJ7cG/2022-04-10.png
+![FileSize]https://i.ibb.co/NWzJ7cG/2022-04-10.png
 
  File size may be differ because , The size on the disk is the indicator of how much space a file occupies on the hard disk drive. When a file is stored in a modern storage device, it usually consumes slightly more storage than the actual file. That's the reason why you see the difference between size vs size on disk.
 
