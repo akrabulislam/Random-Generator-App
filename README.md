@@ -54,13 +54,24 @@ cd Random-Generator-App
 
 ## Core Features
 
-- It will generate a text file of random strings of size 2 MB (2048kb)
+- It will generate a text file of random strings of size 2 MB (2,097,152 bytes)
 - Download the text file
 - Count the frequency of each type of strings
   - Alphabetic (ex : aaa,abcAe, DDDD ...)
   - Integers (ex : 1234,83049840,83948 ...)
   - Real Numbers (ex : 1.012,123445,1111.293 ...)
   - Alphanumerics (ex : aa123a,1DSA3, add0 ...)
+
+---
+**NOTE**
+
+ ![FileSize]https://i.ibb.co/NWzJ7cG/2022-04-10.png
+
+ File size may be differ because , The size on the disk is the indicator of how much space a file occupies on the hard disk drive. When a file is stored in a modern storage device, it usually consumes slightly more storage than the actual file. That's the reason why you see the difference between size vs size on disk.
+
+ Source : https://superuser.com/questions/66825/what-is-the-difference-between-size-and-size-on-disk
+
+---
 
 ## How to test the App ?
 
