@@ -33,6 +33,8 @@ cd Random-Generator-App
 
 ## Server runs on http://localhost:5000
 
+![Backend](https://i.ibb.co/GMnRrJL/Server.png)
+
 ## Install dependencies for client
 
 ```bash
@@ -48,7 +50,7 @@ cd Random-Generator-App
 
 ## Client runs on on http://localhost:3000
 
-![Generator App](https://i.ibb.co/X21tcr1/Generator-App.png)
+![Frontend](https://i.ibb.co/X21tcr1/Generator-App.png)
 
 ## Core Features
 
