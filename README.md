@@ -3,14 +3,50 @@
 
 This project built a String generator app in TypeScript.
 
-## Screenshot
+## Prerequisites
+
+### Install Node JS
+
+Refer to https://nodejs.org/en/ to install nodejs
+
+
+## Cloning and Running the Application in local
+
+Clone the project into local 
+
+```bash
+git clone https://github.com/akrabulislam/Random-Generator-App.git
+cd Random-Generator-App
+```
+
+## Install dependencies for server 
+
+```bash
+ `npm install` or `yarn install`
+```
+
+## Run server 
+```bash
+ `npm run dev` or `yarn run dev`
+```
+
+## Server runs on http://localhost:5000
+
+## Install dependencies for client
+
+```bash
+ `cd client`
+ `npm install` or `yarn install`
+```
+
+## Run client 
+```bash
+ `npm start` or `yarn start`
+```
+
+## Client runs on on http://localhost:3000
+
 ![Generator App](https://i.ibb.co/X21tcr1/Generator-App.png)
-
-## Why to use Typescript?
-
-- **Unified modeling** across web client and server for objects
-- Type safety, and easy refactoring of typed code across web client and server
-- A superior developer experience in a team environment
 
 ## Core Features
 - It will generate a text file of random strings of size 2 MB (2048kb)
@@ -21,36 +57,6 @@ This project built a String generator app in TypeScript.
   - Real Numbers (ex : 1.012,123445,1111.293 ...)
   - Alphanumerics (ex : aa123a,1DSA3, add0 ...)
 
-## Prerequisites
-
-### Install Node JS
-
-Refer to https://nodejs.org/en/ to install nodejs
-
-
-## Cloning and Running the Application in local
-
-Clone the project into local
-
-```bash
-git clone https://github.com/akrabulislam/Random-Generator-App.git
-cd Random-Generator-App
-```
-
-## Install dependencies for server 
-### `npm install` or `yarn install`
-
-## Install dependencies for client
-### cd client ---> `npm install` or `yarn install`
-
-
-## Run the Express server only
-### `npm run dev` or `yarn run dev`
-
-## Run the React client only
-### cd client ---> `npm start` or `yarn start`
-
-## Server runs on http://localhost:5000 and client on http://localhost:3000
 
 ## How to test the App ?
 - Clicking on `Generate` button , will generate a file of random strings of size 2 MB.
@@ -68,3 +74,11 @@ cd Random-Generator-App
   - Alphanumerics
     - Contains `a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z,0,1,2,3,4,5,6,7,8,9`
     - Example  `kaidu12,ok48,akdiuehn98,898dairi....`
+
+## Others
+
+## Why to use Typescript?
+
+- **Unified modeling** across web client and server for objects
+- Type safety, and easy refactoring of typed code across web client and server
+- A superior developer experience in a team environment
