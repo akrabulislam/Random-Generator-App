@@ -67,8 +67,8 @@ const generateRandomStringOfGivenLength: Function = function (base: number, leng
  * @returns length (<= range)
  */
 function getASafeLength(index: number, range: number) {
-  //returning a random length from 1 to 20
-  let length = getARandomNumberOfGivenRange(1, 20);
+  //returning a random length from 1 to 10
+  let length = getARandomNumberOfGivenRange(1, 10);
   return index + length < range ? length : range - index;
 }
 
