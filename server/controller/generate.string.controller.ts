@@ -38,11 +38,13 @@ function generateObjects(index: number, range: number) {
     //increase index
     index += singeObjectOutput.length;
 
-    //add ',' and ' ' after each string
-    generatedObjectsOutput += index < range ? ',' : '';
-    index++;
-    generatedObjectsOutput += index < range ? ' ' : '';
-    index++;
+    if (singeObjectOutput.length) { //if string no empty then simply add , and ' '
+      //add ',' and ' ' after each string
+      generatedObjectsOutput += index < range ? ',' : '';
+      index++;
+      generatedObjectsOutput += index < range ? ' ' : '';
+      index++;
+    }
   }
   return generatedObjectsOutput;
 }
@@ -103,10 +105,10 @@ function generateRealNumbers(index: number, range: number) {
   let realNumberOutput = generateRandomStringOfGivenLength(10, getASafeLength(index, range));
 
   //remove leading zeros
-  realNumberOutput = parseInt(realNumberOutput,10).toString();
+  realNumberOutput = parseInt(realNumberOutput, 10).toString();
 
   //if empty return
-  if(!realNumberOutput.length) return realNumberOutput;
+  if (!realNumberOutput.length) return realNumberOutput;
 
   //increase real number
   updateCountObject('realnumber');
